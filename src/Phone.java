@@ -5,6 +5,12 @@ public class Phone {
     String model, number;
     double weight;
 
+void receiveCall(String name){
+    System.out.println("Calling "+ name);
+}
+String getNumber(){
+    return number;
+}
 }
 
 

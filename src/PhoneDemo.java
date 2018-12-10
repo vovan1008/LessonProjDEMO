@@ -8,9 +8,11 @@ public class PhoneDemo {
         Phone phone3= new Phone();
 
         phone1.number = "+380990000762";
-        phone1.model = "Xiaomi";
+        phone1.model = "Xiaomi Redmi Note 5";
         phone1.weight = 300;
 
         System.out.println(phone1.number +" "+ phone1.model+ " " + phone1.weight);
+        phone1.receiveCall("Nikita");
+        System.out.println(phone1.getNumber());
     }
 }
